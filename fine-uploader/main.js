@@ -34,6 +34,8 @@ upImage.addEventListener('drop', (event) => {
         reader.onloadend = (event) => {
             const fileData = event.target.result;
             const base64FileData = fileData.split('base64,')[1];
+            const image = document.querySelector('.image');
+            image.src = fileData;
             imgurApi(base64FileData);
         }
     }
@@ -52,6 +54,8 @@ function upload(event) {
     reader.onloadend = (event) => {
         const fileData = event.target.result;
         const base64FileData = fileData.split('base64,')[1];
+        const image = document.querySelector('.image');
+        image.src = fileData;
         imgurApi(base64FileData);
     }
 }
@@ -85,6 +89,7 @@ function imgurApi(base64FileData) {
             } else {
                 httpError(data.data.error)
             }
+            loadingOk();
         })
         .catch(error => {
             httpError(error);
