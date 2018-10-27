@@ -710,7 +710,7 @@ module.exports = ".top-menu {\r\n    position: fixed;\r\n    top: 0;\r\n    z-in
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-toolbar class=\"top-menu\" color=\"primary\">\n  <button mat-icon-button (click)=\"btnIsLeftmenyOpened()\" fxShow.sm=\"true\" fxShow.gt-sm=\"false\">\n    <mat-icon class=\"fas fa-bars\" style=\"font-size:1.2rem;\"></mat-icon>\n  </button>\n  <span><a routerLink=\"/about-me\" mat-button class=\"mat-toolbar-title\">Resume</a></span>\n  <span>\n    {{title}}\n  </span>\n  <span class=\"spacer\"></span>\n  <button mat-icon-button (click)=\"btnChangeThem()\">\n    <mat-icon aria-label class=\"fas fa-palette\" style=\"font-size:1.2rem;\"></mat-icon>\n  </button>\n</mat-toolbar>"
+module.exports = "<mat-toolbar class=\"top-menu\" color=\"primary\">\n  <button mat-icon-button (click)=\"btnIsLeftmenyOpened()\" fxShow.sm=\"true\" fxShow.gt-sm=\"false\">\n    <mat-icon class=\"fas fa-bars\" style=\"font-size:1.2rem;\"></mat-icon>\n  </button>\n  <span><a routerLink=\"/about-me\" mat-button class=\"mat-toolbar-title\">Introduction</a></span>\n  <span>\n    {{title}}\n  </span>\n  <span class=\"spacer\"></span>\n  <button mat-icon-button (click)=\"btnChangeThem()\">\n    <mat-icon aria-label class=\"fas fa-palette\" style=\"font-size:1.2rem;\"></mat-icon>\n  </button>\n</mat-toolbar>"
 
 /***/ }),
 
