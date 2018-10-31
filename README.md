@@ -1,7 +1,7 @@
 # the992255.github.io
 
-Resume:
-https://the992255.github.io/resume/
+Introduction:
+https://the992255.github.io/
 
 Fine Uploader:
 https://the992255.github.io/fine-uploader/
